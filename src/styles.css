@@ -1,4 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(https://upload.ecvv.com/upload/UserImage/20141103/SatinBrushedStainlessSteelSheet_7f50b85f-af1c-43bd-8f88-ad927f15efac.Jpg);
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  height: 100;
+  width: 100;
   font-family: sans-serif;
+  color: black;
+  font-weight: bold;
   text-align: center;
+}
+
+#title {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#length-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#session-group {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#break-group {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#time-display {
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  font-size: 34px;
+}
+
+#controls {
+  margin: 20px 0px;
 }
